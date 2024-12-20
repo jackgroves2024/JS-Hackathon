@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Event listener for fetching weather data by city name
     document.getElementById('getWeather').addEventListener('click', async function () {
         const city = document.getElementById('cityInput').value.trim();
-        const apiKey = '5a316685d647b85aa0f6c878e0ba40a6'; // OpenWeather API key
+        const apiKey = 'API KEY HERE'; // OpenWeather API key
         const weatherOutput = document.getElementById('weatherOutput');
 
         if (!city) {
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Event listener for fetching weather data by current location
     document.getElementById('getCurrentLocationWeather').addEventListener('click', function () {
-        const apiKey = '5a316685d647b85aa0f6c878e0ba40a6'; // OpenWeather API key
+        const apiKey = 'API KEY HERE'; // OpenWeather API key
         const weatherOutput = document.getElementById('weatherOutput');
 
         if (!navigator.geolocation) {
